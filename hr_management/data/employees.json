@@ -1,0 +1,16 @@
+[
+    {
+        "emp_id": "E001",
+        "name": "Nguyễn Văn A",
+        "age": 25,
+        "department": "IT",
+        "salary": 1000.0
+    },
+    {
+        "emp_id": "20230623",
+        "name": "quyet",
+        "age": 12,
+        "department": "333",
+        "salary": 11111111.0
+    }
+]

@@ -1,0 +1,4 @@
+Trí tuệ nhân tạo (AI) là một lĩnh vực của khoa học máy tính. 
+Nó tập trung vào việc tạo ra các hệ thống có khả năng học hỏi từ dữ liệu. 
+Các thuật toán máy học giúp máy tính tự đưa ra quyết định mà không cần lập trình rõ ràng. 
+Ứng dụng của AI bao gồm nhận diện khuôn mặt và xử lý ngôn ngữ tự nhiên.

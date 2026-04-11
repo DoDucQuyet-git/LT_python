@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI Code Generator</title>
+</head>
+<body>
+    <h2>AI Sinh Code</h2>
+
+    <textarea id="prompt" placeholder="Nhập yêu cầu..." rows="5" cols="60"></textarea><br><br>
+
+    <select id="language">
+        {% for lang in languages %}
+        <option value="{{ lang }}">{{ lang }}</option>
+        {% endfor %}
+    </select>
+
+    <button onclick="generate()">Generate</button>
+
+    <pre id="result"></pre>
+
+    <script>
+        async function generate() {
+            const prompt = document.getElementById("prompt").value;
+            const language = document.getElementById("language").value;
+
+            const res = await fetch("/generate", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    prompt: prompt,
+                    language: language
+                })
+            });
+
+            const data = await res.json();
+
+            if (data.success) {
+                document.getElementById("result").innerText = data.result;
+            } else {
+                alert(data.error);
+            }
+        }
+    </script>
+</body>
+</html>

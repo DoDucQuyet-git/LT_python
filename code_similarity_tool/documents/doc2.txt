@@ -1,0 +1,4 @@
+AI hay trí tuệ nhân tạo là ngành học quan trọng trong công nghệ thông tin. 
+Mục tiêu của nó là xây dựng các phần mềm biết tự học từ nguồn dữ liệu có sẵn. 
+Thay vì lập trình từng bước, chúng ta sử dụng học máy để hệ thống tự suy luận. 
+Hiện nay, nhận dạng hình ảnh và xử lý tiếng nói là những ứng dụng phổ biến nhất.
